@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark">
-      <Link className="navbar-brand" to="/">Exam Help </Link>
+      <Link className="navbar-brand" to="/">Learn Wise </Link>
       <div className="collapse navbar-collapse">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
