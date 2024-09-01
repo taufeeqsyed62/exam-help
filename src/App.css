@@ -1,38 +1,34 @@
-.App {
-  text-align: center;
-}
+/* src/App.css */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+    background-color: #f0f8ff; /* Light Blue Background */
+    color: #000080; /* Dark Blue Text */
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .navbar {
+    background-color: #000080 !important; /* Dark Blue Navbar */
   }
-  to {
-    transform: rotate(360deg);
+  
+  .navbar-brand, .nav-link {
+    color: white !important; /* White Text in Navbar */
   }
-}
+  
+  .alert-warning {
+    background-color: #ffebcd; /* Light Warning Background */
+    color: #000080; /* Dark Blue Text */
+  }
+  
+  .alert-info {
+    background-color: #e6f7ff; /* Light Blue Info Background */
+    color: #000080; /* Dark Blue Text */
+  }
+  
+  .card {
+    border-color: #000080; /* Dark Blue Border for Cards */
+  }
+  
+  .card-body {
+    background-color: #ffffff; /* White Background for Card Body */
+    color: #000080; /* Dark Blue Text */
+  }
+  
